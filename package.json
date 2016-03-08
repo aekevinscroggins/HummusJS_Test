@@ -14,6 +14,7 @@
     "express": "^4.13.4",
     "fs-extra": "^0.26.5",
     "hummus": "^1.0.48",
+    "imagemagick": "^0.1.3",
     "morgan": "^1.7.0"
   }
 }

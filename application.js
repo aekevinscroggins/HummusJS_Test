@@ -74,7 +74,7 @@ async.series(
 				}
 			);
 		},
-		function(callback) {
+		/*function(callback) {
 			return test(
 				"T1",
 				"./Test_T1.pdf",
@@ -86,7 +86,7 @@ async.series(
 					return callback(error);
 				}
 			);
-		},
+		},*/
 		function(callback) {
 			return test(
 				"RC71",
@@ -100,7 +100,7 @@ async.series(
 				}
 			);
 		},
-		function(callback) {
+		/*function(callback) {
 			return test(
 				"T1013",
 				"./Test_T1013.pdf",
@@ -112,7 +112,7 @@ async.series(
 					return callback(error);
 				}
 			);
-		}
+		}*/
 	],
 	function(error) {
 		if(error) {
